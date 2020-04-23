@@ -16,7 +16,7 @@ pipeline {
         }
         stage('Print file contents') {
             steps {
-                    sh "ls -l; pwd"
+                    sh "ls -l; pwd; cat where-am-i"
             }
         }
     }
