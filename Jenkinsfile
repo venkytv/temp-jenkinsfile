@@ -17,7 +17,6 @@ pipeline {
         stage('Print file contents') {
             steps {
                     sh "ls -l; pwd"
-                }
             }
         }
     }
